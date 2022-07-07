@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+  }
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+
+
+
+body{
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    position: relative;
+    background: linear-gradient(68.15deg, #2F2325 56.84%, #8E5D52 85.61%);
+    }
+ 
+ 
+.cabecalho{
+   
+    
+
+
+}
+
+.cabecalho-img{
+    width: 75px;
+    height: auto;
+    align: left;
+}
+
+.cabecalho-menu {
+    text-align: center;
+
+}
+
+.menu-sobre , .menu-projetos, .menu-experiencia {
+    font-family: 'Sarala', sans-serif;
+    color: #fff2e7;
+    font-weight: 400;
+    font-size: 0.8rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+.conteudo {
+    border-top: 0.4px solid #fff2e7;
+    margin-bottom: 48px;
+    max-width: 50%;
+}
+
+.conteudo-principal{
+
+}
+
+.conteudo-principal-escrito {
+
+
+}
+ 
+.conteudo-principal-escrito-titulo {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: #fff2e7;
+  }
+
+  .conteudo-principal-escrito-subtitulo {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-weight: 400;
+    font-size: 0.6rem;
+    color: #fff2e7;
+
+  }
+
+  .conteudo-princial-escrito-botao {
+      background-color: #ecd6c4;
+      width: 185px;
+      height: 67px;
+      border: none;
+      box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 20px;
+      font-family:'Kdam Thmor Pro', sans-serif;
+      font-weight: 400;
+      font-size: 0.8rem;
+  }
+
+  .conteudo-principal-escrito-img {
+      height: 300px;
+      border-radius: 70px;
+      padding-top: 24px;
+      filter: drop-shadow(8px 8px 10px #333);   
+      filter: grayscale(0%);
+
+  }
+
+  .conteudo-principal-escrito-img:hover {
+      filter: grayscale(100%);
+  }
+
+
+
+footer {
+      padding-top: 24px;
+      padding-left: 400px;
+      font-weight: 200;     
+      color: #fff2e7;
+      font-family: 'Kdam Thmor Pro', sans-serif;
+      font-weight: 400;
+      font-size: 0.7rem;
+
+  }
+
+.iframe{
+    width: 60%;
+    height: auto;
+}
+
+.texto-iframe {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-weight: 400;
+    font-size: 0.7rem;
+    color: #fff2e7;
+
+}
+
+
+/* MOBILE FIRST*/
+
+

@@ -1,0 +1,178 @@
+/* Importando CSS de Tabelas */
+@import url('tabelas.css');
+
+
+/* 
+
+	Herança
+
+	1. Sobreposição / Sobrescreve
+	2. Aplica a último estilo definido
+	3. Prioriza estilo específicas (com seletores mais próximos)
+	4. Se aplica a todas as propriedades
+
+ */
+
+
+html {
+	font: arial;
+	font-family: sans-serif;
+	color: #333333;
+}
+
+p {
+	color: #454545;
+}
+
+h1 {
+	color: #69a38c;
+}
+header p {
+	color: #c170f9;
+	font-size: 1rem;
+}
+
+
+/* 
+
+	Combinadores 
+	
+	(espaço) seletor descendente 
+	(>) combinador de seletores filhos
+	(+) combinador de elementos irmãos adjacentes / que vem logo na sequencia
+	(~) combinador de elementos irmãos geral / após elemento de referência
+
+	
+*/
+
+
+header h2 {
+	font-weight: 100;
+}
+
+
+header > h3 {
+	font-weight: 300;
+
+}
+
+h2 + p {
+	background: #008000;
+	color: #333;
+}
+
+
+
+/* Pseudo-classes */
+
+a {
+	color: #555555;
+	text-decoration: none; /* o padrão é underline */
+	font-size: 1.0rem;
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+a:visited {
+	color: #f00;
+}
+
+a:active {
+	color: #096;
+}
+
+a:hover {
+	color: #009;
+	background: #eee;
+}
+
+h2:hover {
+	color: #888;
+}
+
+
+/* 
+	Tipografia
+*/
+
+html {
+	font-family: sans-serif;
+}
+
+h1  {
+	font-weight: 600;
+	font-family: 'Kdam Thmor Pro', sans-serif;
+	font-size: 2rem;
+}
+
+p {
+	font-weight: normal;
+	font-size: 1.2rem;
+ 
+}
+
+ul {
+	padding-left: 0rem;
+	margin-left: 0.7rem;
+
+}
+
+li {
+	letter-spacing: 0.01rem;
+	font-family: sans-serif;
+	line-height: 1.5;
+}
+
+h3 {
+	/* declaração resumida / completa */
+	font: italic bold 1.4rem/2 sans-serif;
+}
+
+/* 
+
+	Cores
+
+*/
+
+body {
+	background: url('../images/patterne.png') center top repeat #EEEEEE;
+}
+
+section {
+	background: rgba(255, 255, 255, 0.55);
+}
+
+p {
+	color: #034589;
+}
+
+header,
+footer {
+	background-color: #ffffff;
+}
+
+footer p tr {
+	color: rgba(255, 255, 255);
+	background-color: rgba(0, 0, 0, 0.5)
+
+}
+
+
+.nuestros-servicios {
+	background-color: rgba(56, 235, 238, 0.929);
+	padding: 0.5rem;
+}
+
+
+.nuestros-servicios li a {
+	color: white;
+	font-size: 1.2rem;
+}
+
+.nuestros-servicios li a:hover {
+	background-color: rgba(150, 150, 200, .5);
+	color: #333333;
+}
+
+
